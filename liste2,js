@@ -1,0 +1,24 @@
+//criar um programa que mostre se um numero e positivo ou negativo
+
+let nu1 = 99
+if (nu1>=0){
+    console.log (`o numero ${nu1} e positivo`)
+}else{
+    console.log(`o numero ${nu1} e negativo`) 
+}
+
+//criar um pograma que mostre se um ano é bissexto.
+let ano = 2020;
+if (ano % 4 === 0) {
+    console.log (`é bissexto.`);
+}else {
+    console.log(`não e bissexto.`);
+}
+
+//criar um programa que mostre uma senha e a mensagem acesso permitido
+let senha ="toscão67sixseven"
+if(senha==="toscão67sixseven"){
+    console.log("acesso permido")
+}else {
+    console.log("acesso negado")
+}
